@@ -1,1 +1,8 @@
-{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
+{
+   "redirects":[
+      {
+         "source":"/",
+         "destination":"https://swole-society-api.vercel.app/"
+      }
+   ]
+}
