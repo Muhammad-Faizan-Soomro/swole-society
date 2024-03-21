@@ -7,7 +7,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["https://swole-society.vercel.app"],
+    origin: process.env.CORS_ORIGIN,
     credentials: true,
   })
 );
