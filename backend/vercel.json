@@ -1,13 +1,10 @@
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.6.3/umd/react.production.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.6.3/umd/react-dom.production.min.js"></script>
-
 {
   "headers": [
     {
       "source": "/api/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
-        { "key": "Access-Control-Allow-Origin", "value": "*" }, // Change this to specific domain for better security
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
         {
           "key": "Access-Control-Allow-Methods",
           "value": "GET,OPTIONS,PATCH,DELETE,POST,PUT"
