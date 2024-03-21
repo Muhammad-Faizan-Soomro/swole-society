@@ -16,10 +16,4 @@
             }
         }
     ],
-      "redirects":[
-      {
-         "source":"/",
-         "destination":"https://swole-society-api.vercel.app/"
-      }
-   ]
 }
